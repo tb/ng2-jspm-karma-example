@@ -2,21 +2,19 @@ System.config({
   "baseURL": "/",
   "defaultJSExtensions": true,
   "transpiler": "typescript",
-  "typescriptOptions":{
-    "module":"commonjs",
+  "typescriptOptions": {
+    "module": "commonjs",
     "emitDecoratorMetadata": true
   },
   "paths": {
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*",
-    //this lets us use app/ for our package as a sort of virtual directory
     "app": "src"
   },
-  //this configures our app paths
   "packages": {
     "app": {
       "main": "main",
-      "defaultExtension": "js" //or "ts" for typescript
+      "defaultExtension": "ts"
     }
   }
 });
