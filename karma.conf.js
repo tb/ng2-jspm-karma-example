@@ -15,7 +15,6 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
      jspm: {
-       config: 'config.js',
         loadFiles: [
             'src/**/*.ts'
         ]
