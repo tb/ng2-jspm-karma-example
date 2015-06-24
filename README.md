@@ -1,13 +1,13 @@
 
 # First time setup
 
-npm install -g jspm@beta
-npm install
+    npm install -g jspm@beta
+    npm install
 
 # Running
 
-npm start
-npm test
+    npm start
+    npm test
 
 # TODO
 
